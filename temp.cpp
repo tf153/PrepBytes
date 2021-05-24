@@ -1,20 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std;
-string findSmallestPermutation(string s)
-{
-    int len = s.length();
-    sort(s.begin(), s.end());
-    int i = 0;
-    while (s[i] == '0')
-        i++;
 
-    swap(s[0], s[i]);
-    return s;
-}
 int main()
 {
-    string s = "5468001";
-    string res = findSmallestPermutation(s);
-    cout << res << endl;
+    int n;
+    while (n--)
+    {
+        int yr;
+        cin >> yr;
+        if (yr % 400 == 0)
+            cout << "Yes" << endl;
+        else if (yr % 100 == 0)
+            cout << "No" << endl;
+        else if (yr % 4 == 0)
+            cout << "Yes" << endl;
+        else
+            cout << "No" << endl;
+    }
+
     return 0;
 }
