@@ -1,0 +1,98 @@
+Foolish Items
+Arnab is now handed 
+N
+ rupees, he is asked by his mom to buy at least two ingredients which are used to make the sweetest dish.
+The sweetness of the dish is the product of the cost of all the ingredients.
+Now Arnab's Mom has given Arnab the exact amount, so after buying the suitable ingredients there will be no money left with Arnab. The market which Arnab visits have ingredients of all possible positive costs 
+(
+c
+o
+s
+t
+>
+0
+)
+. Help Arnab find the maximum value of sweetness.
+
+Input format
+The first line contains an integer 
+T
+ where 
+T
+ is the number of test cases.
+For every Test case:
+The next line contains one integer 
+N
+. 
+
+Output format
+For every test case print the answer in the new line. 
+
+Constraints:
+1
+<=
+T
+<=
+70
+
+1
+<=
+N
+<=
+100
+
+Time Limit
+1 second
+
+Example
+Input
+3
+2
+4
+5
+
+Output
+1
+4
+6
+
+Explanation
+In the first test case Arnab has to buy atleat 
+2
+ ingredients so he chooses 
+1
+ and 
+1
+, so sweetness value = 
+1
+∗
+1
+=
+1
+.
+In the second test case Arnab has to buy at least 
+2
+ ingredients so he chooses 
+2
+ and 
+2
+ cost ingredients, so sweetness value=
+2
+∗
+2
+=
+4
+.
+In the third test case Arnab has to buy at least 
+2
+ ingredients so he chooses 
+2
+ and 
+3
+ cost ingQredients, so sweetness value=
+2
+∗
+3
+=
+6
+.

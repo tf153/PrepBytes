@@ -1,0 +1,75 @@
+Toys
+Once upon a time, Arya visited a toy store. As Arya is a small kid he is attracted to every toy. But Arya has a bag of capacity 
+C
+ and each toy occupies a definite volume of his bag. He would like to fill his bag so that when he goes home he can play with them all.
+Arya plays with each toy turn by turn and after playing with a specific toy his happiness increases by a specified amount which is different for a different toy.
+As a smart kid Arya wants to be the happiest person, help him to choose his toys. Each toy can be selected just one time.
+Find the maximum value of happiness Arya can reach.
+
+Input format
+The first line contains an integer 
+T
+, denoting the number of test cases. 
+For each test case:
+There are two integers 
+N
+ and 
+C
+ which is the number of toys and Capacity of the bag.
+The next line contains 
+N
+ integers which are the volume of toys.
+The next line contains 
+N
+ integers which are the value of happiness.
+
+Output format
+For each test case print the maximum value of happiness.
+
+Constraints
+1
+<=
+T
+<=
+5
+
+1
+<=
+N
+<=
+10
+3
+
+1
+<=
+C
+,
+V
+[
+i
+]
+,
+H
+[
+i
+]
+<=
+10
+4
+
+Time Limit
+1 second
+
+Example
+Input
+2
+3 50
+10 20 30
+60 100 120
+3 100
+50 40 30
+100 600 320
+
+Output
+220
+920
